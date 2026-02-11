@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+}
+
+#floor {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #ccc;
+    background: #f9f9f9;
+}
+
+.seat {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.seat:hover {
+    background: #bbb;
+}
